@@ -15,12 +15,12 @@
 
     <link rel="stylesheet" href="css/estilos.css">
 
-    <title>CRUD PHP AJAX DATATABLE</title>
+    <title>DIGITAL ID CARD</title>
 </head>
 
 <body>
     <div class="container fondo">
-        <h1 class="text-center">Crud PHP AJAX DATATABLES</h1>
+        <h1 class="text-center">DIGITAL ID CARD</h1>
 
         <div class="row">
             <div class="col-2 offset-10">
@@ -41,10 +41,9 @@
                     <tr>
                         <th>Id</th>
                         <th>Nombres</th>
-                        <th>Apellidos</th>
-                        <th>Teléfonos</th>
-                        <th>Email</th>
-                        <th>Imagen</th>
+                        <th>Dependencia</th>
+                        <th>Cédula</th>
+                        <th>Rh</th>
                         <th>Fecha de creación</th>
                         <th>Editar</th>
                         <th>Borrar</th>
@@ -67,14 +66,14 @@
                                 <label for="nombre">Nombres</label>
                                 <input type="text" name="nombre" id="nombre" class="form-control">
                                 <br />
-                                <label for="apellido">Apellidos</label>
-                                <input type="text" name="apellido" id="apellido" class="form-control">
+                                <label for="dependencia">Dependencia</label>
+                                <input type="text" name="dependencia" id="dependencia" class="form-control">
                                 <br />
-                                <label for="telefono">Teléfono</label>
-                                <input type="number" name="tel" id="tel" class="form-control">
+                                <label for="cedula">Cedula</label>
+                                <input type="number" name="cedula" id="cedula" class="form-control">
                                 <br />
-                                <label for="email">Email</label>
-                                <input type="email" name="email" id="email" class="form-control">
+                                <label for="rh">Rh</label>
+                                <input type="text" name="rh" id="rh" class="form-control">
                                 <br />
                                 <label for="imagen">Ingrese imagen</label>
                                 <input type="file" name="imagen_usuario" id="imagen_usuario" class="form-control">
